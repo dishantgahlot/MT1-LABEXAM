@@ -1,0 +1,24 @@
+{
+  "name": "employee-task-management",
+  "version": "1.0.0",
+  "description": "Employee Task Management Web Application using Node.js HTTP and Express.js",
+  "main": "httpServer.js",
+  "type": "module",
+  "scripts": {
+    "start:http": "node httpServer.js",
+    "start:express": "node expressApp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "http",
+    "express",
+    "rest-api",
+    "fs-module"
+  ],
+  "author": "Disha Gahlot",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
